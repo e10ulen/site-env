@@ -3,7 +3,8 @@ title = "依藤"
 languageCode = "ja-jp"
 hasCJKLanguage = true
 theme = "rokkaku"
-
+pygmentsUseClasses = true
+pygmentsCodeFences = true
 [taxonomies]
   tag = "tags"
   archive = "archives"
@@ -20,7 +21,7 @@ theme = "rokkaku"
   [params.fontAwesome]
   #  embedCode = "xxxx"
 
-  [params.highlightjs]
+ # [params.highlightjs]
   #  url = "/js/highlight.pack.js"
 
   [params.ga]

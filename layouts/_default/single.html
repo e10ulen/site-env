@@ -27,10 +27,11 @@
         <div class="c-calendar__day-of-month"><span>{{ .Date.Format "2" }}</span></div>
         <div class="c-calendar__day-of-week"><span>{{ index $.Site.Data.jweekday (printf "%s" .Date.Weekday) }}</span></div>
     </div>
-    <h1 class="p-article__title__text">{{ .Title }}{{ if .Draft }}<span class="p-article__title__draft"> ::Draft{{ end }}<span>
+    <h1 class="p-article__title__text">{{ .Title }}{{ if .Draft }}<span class="p-article__title__draft"> ::Draft</span>{{ end }}
     </h1>
   </div>
-
+  <a href="https://osushi.love/intent/post/e25efee2f49145b59db4077823046688" class="ossh-post-btn" data-type="small">お寿司を送る</a><script src="https://platform.osushi.love/widgets.js"></script>
+  
   <section class="p-article__content">
   {{ .Content }}
   </section>

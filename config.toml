@@ -14,6 +14,7 @@ theme = "rokkaku"
   styles = ["/css/tags.css"]
   github = "e10ulen"
   twitter = "e10ulen"
+  about = "about"
   copyrightHtml = "Copyright &copy; e10ulen 2018"
 
   [params.fontAwesome]
@@ -24,3 +25,4 @@ theme = "rokkaku"
 
   [params.ga]
   #  trackingId = "xxxx"
+

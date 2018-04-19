@@ -22,6 +22,9 @@
         {{ if .Site.Params.twitter }}
         <a href="https://twitter.com/{{ .Site.Params.twitter }}"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
         {{ end }}
+        {{ if .Site.Params.about }}
+        <a href="/{{ .Site.Params.about }}"><i class="fa fa-book fa-3x" aria-hidden="true"></i></a>
+        {{ end }}
       </div>
       <div class="p-tail__copyright">
         {{ .Site.Params.copyrightHtml | safeHTML }}

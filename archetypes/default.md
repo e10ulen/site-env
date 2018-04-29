@@ -1,6 +1,6 @@
 +++
 title = "{{ replace .Name "-" " " | title }}"
-date = {{ .Date }}
+date = "{{ .Date }}"
 lastmod = ""
 tags = ["blog","Create","OneHourWrite"]
 tags = ["Golang", "Github", "Twitter", "Mastodon"]

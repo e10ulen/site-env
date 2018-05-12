@@ -1,29 +1,25 @@
 baseurl = "https://e10ulen.github.io"
 title = "依藤"
-languageCode = "ja-jp"
-hasCJKLanguage = true
-theme = "rokkaku"
-pygmentsUseClasses = true
-pygmentsCodeFences = true
-[taxonomies]
-  tag = "tags"
-  archive = "archives"
+theme = "hugo_theme_robust"
+
+googleAnalytics = "" # Optional
+disqusShortname = ""
 
 [params]
-  limitNumberOfLatests = 10
-  logoHtml = ""
-  styles = ["/css/tags.css"]
-  github = "e10ulen"
-  twitter = "e10ulen"
-  about = "about"
-  copyrightHtml = "Copyright &copy; e10ulen 2018"
+  description = "This is site description"
+  dateformat = "Jan 2, 2006" # Optional
+  # Fonts settings.
+  googlefonts = "https://fonts.googleapis.com/css?family=Lobster|Lato:400,700" # Optional, Include google fonts.
+  fontfamily = "Lato,YuGothic,'Hiragino Kaku Gothic Pro',Meiryo,sans-serif" # Optional, Override body font family.
+  logofontfamily = "Lobster, cursive" # Optional, Override logo font.
 
-  [params.fontAwesome]
-  #  embedCode = "xxxx"
+[params.author]
+  thumbnail = "images/author.jpg"
+  name = "e10ulen 依藤"
+  description = "このブログについては<a href=/about >こちらを</a>"
+  facebook = ""
+  twitter = "https://twitter.com/e10ulen"
+  github = "https://github.com/e10ulen"
 
- # [params.highlightjs]
-  #  url = "/js/highlight.pack.js"
-
-  [params.ga]
-  #  trackingId = "xxxx"
-
+[outputs]
+page = [ "HTML", "AMP" ] # if you want AMP enable.

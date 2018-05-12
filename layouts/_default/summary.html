@@ -1,43 +1,71 @@
-<article class="p-articles__heading">
+<article class="sn">
 
-  <div class="c-calendar">
-      <div class="c-calendar__month">{{ index $.Site.Data.jmonth (printf "%d" .Date.Month) }}</div>
-      <div class="c-calendar__day-of-month"><span>{{ .Date.Format "2" }}</span></div>
-      <div class="c-calendar__day-of-week"><span>{{ index $.Site.Data.jweekday (printf "%s" .Date.Weekday) }}</span></div>
+  <div class="thumb thumb-{{ .UniqueID }}"></div>
+
+  <header class="article-header">
+    <h1 class="title">{{ .Title }}</h1>
+
+    <ul class="facts">
+      <li>
+        <i class="fa fa-calendar" aria-hidden="true"></i>
+        <time datetime="{{ .Date.Format "2006-01-02T15:04:05JST" }}">
+          {{ .Lastmod.Format ( .Site.Params.dateformat | default "Jan 2, 2006") }}
+      </time>
+    </li>
+    <li><i class="fa fa-refresh" aria-hidden="true"></i><time datetime="{{ .Lastmod.Format "2006-01-02T15:04:05JST" }}">{{ .Lastmod.Format ( .Site.Params.dateformat | default "Jan 2, 2006") }}</time></li>
+      {{ with .Section }}<li><i class="fa fa-bookmark" aria-hidden="true"></i><a href="{{ $.Site.BaseURL }}{{ . | urlize }}/">{{ . | upper }}</a></li>{{ end }}
+      {{ if eq (getenv "HUGO_ENV") "DEV" }}
+      <li>{{ .WordCount }} Words</li>
+      {{ if .IsDraft }}<li style="color: #2196f3;">DRAFT</li>{{ end }}
+      {{ end }}
+    </ul>
+
+    {{ partial "share.html" . }}
+  </header>
+
+  {{ if .Params.toc }}
+  <div class="toc">
+    {{ .TableOfContents }}
   </div>
+  {{ end }}
 
-  <div class="c-heading">
-      {{ if ne .Date .Lastmod }}
-      <div class="c-stamp-small">
-        <ul>
-          <li>加筆</li>
-          <li>{{ .Lastmod.Format "06.01.02" }}</li>
-          <li>修正</li>
+  <div class="article-body">{{ .Content }}</div>
+
+  <footer class="article-footer">
+
+    {{ partial "share.html" . }}
+
+    <section class="footer">
+      <div>
+        <nav class="crumb">
+          <ol>
+            <li><a href="{{ .Site.BaseURL }}"><i class="fa fa-home" aria-hidden="true"></i>TOP</a></li>
+            {{ with .Section }}
+            <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="{{ $.Site.BaseURL }}{{ . | urlize }}/" itemprop="url"><span itemprop="title">{{ . | upper }}</span></a></li>
+            {{ end }}
+            <li class="active">{{ .Title }}</li>
+          </ol>
+        </nav>
+      </div>
+    </section>
+
+    {{ $params := .Params }}
+    {{ range $key, $value := $.Site.Taxonomies }}
+    {{ if isset $params $key }}
+    <section class="footer">
+      <header>
+        <a href="{{ $.Site.BaseURL }}{{ $key | urlize }}/">{{ $key | upper }}</a>
+      </header>
+      <div>
+        <ul class="terms">
+          {{ range (index $params $key) }}
+          <li><a href="{{ $.Site.BaseURL }}{{ $key | urlize }}/{{ . | urlize }}/">{{ . }}</a></li>
+          {{ end }}
         </ul>
       </div>
-      {{ end }}
-
-    <div class="c-heading__title">
-
-      <i class="c-heading__title__icon fa fa-tag fa-2x" aria-hidden="true"></i>
-
-      <h1 class="c-heading__title__text"><a href="{{ .Permalink }}">{{ .Title }}</a>{{ if .Draft }} ::Draft{{ end }}</h1>
-
-    </div>
-    <div class="c-heading__summary">
-    {{ .Summary | plainify | safeHTML }}
-    {{ if .Truncated }}
-    ...
+    </section>
     {{ end }}
-    </div>
-    <ul class="c-heading__tags">
-      {{ range .Params.tags }}
-      <li class="c-heading__tags__tag">
-        <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
-      </li>
-      {{ end }}
-  
-</ul>
-  </div>
-</article>
+    {{ end }}
+  </footer>
 
+</article>

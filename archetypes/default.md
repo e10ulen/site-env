@@ -1,9 +1,8 @@
 +++
-title = "{{ replace .Name "-" " " | title }}"
+draft = true
+thumbnail = ""
+tags = ["blog", "create", "onehourwrite", "mastodon", "gallery", "photo"]
 date = "{{ .Date }}"
-lastmod = ""
-tags = ["blog","Create","OneHourWrite"]
-tags = ["Golang", "Github", "Twitter", "Mastodon"]
-archives = "2018"
-toc = true
+title = "{{ replace .TranslationBaseName "-" " " | title }}"
+description = ""
 +++

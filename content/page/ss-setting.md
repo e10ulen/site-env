@@ -3,7 +3,7 @@ draft = false
 thumbnail = ""
 tags = ["blog", "create"]
 date = "2018-05-13T23:59:41+09:00"
-title = "Ss Setting"
+title = "小説のプロット？多分掌編なり飽きるまでのモノ"
 description = "小説の設定？を書きまとめたメモ。ぐちゃぐちゃです。"
 +++
 [ss](/ss.odt)

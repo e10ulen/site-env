@@ -1,0 +1,18 @@
++++
+draft = false
+thumbnail = ""
+tags = ["blog", "create"]
+date = "2018-05-13T23:59:41+09:00"
+title = "Ss Setting"
+description = "小説の設定？を書きまとめたメモ。ぐちゃぐちゃです。"
++++
+[ss](/ss.odt)
+## 登場人物
+セナ、戀
+
+##  場所
+家から会社へ
+
+##  どういう話
+セナが久々に出社してくる話
+

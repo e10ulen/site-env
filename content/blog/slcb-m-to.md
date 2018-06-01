@@ -1,0 +1,34 @@
++++
+title = "村焼場について"
+date = "2018-05-31T21:14:59+09:00"
+description = "今後の村焼場（いちくら避難所）について"
+image = "/images/avatar.jpg"
+tags = [ "blog" , "mastodon"]
+draft = false
+
+[author]
+name = "依藤"
+url = "https://e10ulen.github.io/"
+avatar = "/images/avatar.jpg"
+license = "by-nc-nd"
+github = "e10ulen"
+twitter = "e10ulen"
+[scripts]
+mathjax = false
+mermaidjs = false
++++
+
+[株式会社ホープムーン](http://www.hopemoon.com/)が運営する[ムトー★無料マストドン](https://free.m.to/)を利用し、  
+立ち上げた村焼場~~ブチ切れ~~インスタンスですが、残念ながら、維持費支払いをファンブルしまして  
+現時点（記事更新時）で既に期限きれ状態でございます。  
+登録していただいた皆様には大変申し訳ございませんが、  
+当村焼場インスタンスはこのまま自然死させます（多分ですが）  
+近日中に何らかの形でいちくら避難所を制作したいとは思っています。  
+~~インスタンス立ち上げるか、どうするか悩んでいますが~~
+
+## 続報は待て！！！！
+
+__自然死はしませんでした__
+
+なので、じわじわと無料範疇で動くなり、独自ドメインで作成し直すなりします。~~わぁい~~
+

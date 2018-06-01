@@ -1,25 +1,25 @@
-baseurl = "https://e10ulen.github.io/"
-title = "依藤"
-theme = "hugo_theme_robust"
+theme           = "hugo-theme-text"
+baseurl         = "http://slcb.xyz"
+title           = "幽玄怪社 依藤工夢店"
+languageCode    = "ja" #ISO639/RFC4646 #optional
+disqusShortname = "e10ulensite" #optional
 
-googleAnalytics = "" # Optional
-disqusShortname = ""
+[author]
+  name      = "依藤"
+  url       = "/about/" #optional
+  avatar    = "/images/avatar.jpg" #optional
+  license   = "CC-License: by-nc-nd" #optional
+  github    = "e10ulen" #optional
+  twitter   = "e10ulen" #optional
+  medium    = "" #optional
+  tumblr    = "" #optional
+  instagram = "" #optional
+  flickr    = "" #optional
+  facebook  = "" #optional
+  linkedin  = "" #optional
+  flattr    = "" #optional
 
 [params]
-  description = ""
-  dateformat = "Jan 2, 2006" # Optional
-  # Fonts settings.
-  googlefonts = "https://fonts.googleapis.com/css?family=Lobster|Lato:400,700" # Optional, Include google fonts.
-  fontfamily = "Lato,YuGothic,'Hiragino Kaku Gothic Pro',Meiryo,sans-serif" # Optional, Override body font family.
-  logofontfamily = "Lobster, cursive" # Optional, Override logo font.
-
-[params.author]
-  thumbnail = "images/author.jpg"
-  name = "依藤"
-  description = "このブログについては<a href=/about >こちらを</a>"
-  facebook = ""
-  twitter = "https://twitter.com/e10ulen"
-  github = "https://github.com/e10ulen"
-
-[outputs]
-page = [ "HTML", "AMP" ] # if you want AMP enable.
+since       = "2017-01-01" #datetime format #optional
+description = "個人サークル ゆうげんがいしゃ　えとうこうむてん" #optional
+favicon     = "/favicon.ico" #optional

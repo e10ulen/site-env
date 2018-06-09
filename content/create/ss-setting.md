@@ -1,44 +1,34 @@
 +++
 draft = false
-thumbnail = ""
 tags = ["blog", "create"]
 date = "2018-05-13T23:59:41+09:00"
-title = "断続的に執筆している小説メモ"
+title = "現在書いている小説のメモです"
 description = "小説の設定？を書きまとめたメモ。ぐちゃぐちゃです。"
-
-image = "/images/avatar.jpg"
-
-[author]
-name = "依藤"
-url = "https://e10ulen.github.io/"
-avatar = "/images/avatar.jpg"
-license = "by-sa"
-github = "e10ulen"
-twitter = "e10ulen"
-[scripts]
-mathjax = false
-mermaidjs = false
+showDate = true
 +++
-[ss/odt](/ss.odt)  
-[ss/pdf](/ss.pdf)  
+
+[ss/pdf](/file/ss.pdf)  
 ## 登場人物
-[セナ](/sena-setting/)  
-[戀](/len-setting/)  
-[咲夢](/sakura-setting/)  
-[アイドルユニット](/rio-setting/)  
+[セナ]({{< ref "/create/slcb-setting.md#sena" >}})  
+[戀]({{< ref "/create/slcb-setting.md#len" >}})  
+[咲夢]({{< ref "/create/slcb-setting.md#sakura" >}})  
+[アイドルユニット]({{< ref "/create/slcb-setting.md#idol" >}})  
 
 ##  場所
 家から会社へ  
 会社内だと  
 地下駐車場から役員会議室へ  
-
+キャンプ場から観光地巡りへ  
+観光地巡りからの買い物へ  
+買い物からキャンプ場へ  
 
 ##  どういう話
 セナが久々に出社してくる話  
 セナが現役トップアイドルの二人を部下に持つ話  
 キャンプ生活しながらそれを自社ケーブルテレビで配信して安全性を確保しつつ、話題にしようとするセナ  
 キャンプか、72時間日本移動（○○から○○まで）になりました。  
-再びセナが芸能人として復帰して仕事していくうちにアイドルになる…？
+再びセナが芸能人として復帰して仕事していくうちにトップアイドルになる…？  
+キャンプしながら日本をめぐる話になりそうです。  
 
 ##  オチ（目指していく先
 セナがトップアイドルとなってしまう。
@@ -51,3 +41,4 @@ mermaidjs = false
 戀との合流まで進んだ  
 セナが預かる部下が問題児だったら…？  
 部下は現役トップアイドルユニット  
+何処が問題児なのかさっぱり分からないぜ  

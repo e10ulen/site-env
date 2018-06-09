@@ -1,20 +1,10 @@
 +++
 draft = false
-thumbnail = ""
 tags = ["blog", "create","event"]
 date = "2018-05-28T22:08:02+09:00"
+showDate = true
 title = "杜の奇跡27"
 description = "宮城県仙台市中小企業活性化センター5階ホールにて行われた杜の奇跡27"
-[author]
-name = "依藤"
-url = "https://e10ulen.github.io/"
-avatar = "/images/avatar.jpg"
-license = "by-nc-nd"
-github = "e10ulen"
-twitter = "e10ulen"
-[scripts]
-mathjax = false
-mermaidjs = false
 +++
 
 5月27日仙台市にて杜の奇跡27が行われました。  

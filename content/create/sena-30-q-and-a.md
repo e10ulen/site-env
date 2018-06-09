@@ -1,20 +1,9 @@
 +++
 title = "僕について"
 date = "2018-05-05T02:17:10+09:00"
-lastmod = ""
 tags = ["blog","Create"]
-
 description = "セナに30個の質問を投げかけてみました。"
-[author]
-name = "依藤"
-url = "https://e10ulen.github.io/"
-avatar = "/images/avatar.jpg"
-license = "by-sa"
-github = "e10ulen"
-twitter = "e10ulen"
-[scripts]
-mathjax = false
-mermaidjs = false
+showDate = true
 +++
   
 [--]　こんにちは。今日はよろしくお願い致します。  

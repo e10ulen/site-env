@@ -1,25 +1,34 @@
-theme           = "hugo-theme-text"
-baseurl         = "http://slcb.xyz"
-title           = "幽玄怪社 依藤工夢店"
-languageCode    = "ja" #ISO639/RFC4646 #optional
-disqusShortname = "e10ulensite" #optional
-
-[author]
-  name      = "依藤"
-  url       = "/about/" #optional
-  avatar    = "/images/avatar.jpg" #optional
-  license   = "CC-License: by-nc-nd" #optional
-  github    = "e10ulen" #optional
-  twitter   = "e10ulen" #optional
-  medium    = "" #optional
-  tumblr    = "" #optional
-  instagram = "" #optional
-  flickr    = "" #optional
-  facebook  = "" #optional
-  linkedin  = "" #optional
-  flattr    = "" #optional
+baseurl                 = "/"               # Your domain name. Must end with "/"
+languageCode            = "ja"
+title                   = "幽玄怪社 依藤工夢店"
+theme                   = "sam"
+# googleAnalytics       = "xxx"             # Tracking code, eg. "UA-111111111-1"
 
 [params]
-since       = "2017-01-01" #datetime format #optional
-description = "個人サークル ゆうげんがいしゃ　えとうこうむてん" #optional
-favicon     = "/favicon.ico" #optional
+    dateform            = "Mon Jan 02, 2006"
+    dateformfull        = "Mon Jan 2 2006 15:04:05 EST"
+    favicon             = "/favicon.ico"
+    pygmentsStyle       = "monokai"                     # https://help.farbox.com/pygments.html
+    pygmentsCodefences  = true
+    homepage            = "main"                        # What to call the home page link
+    galleryFolder       = "images/"                     # Where you've put your images, after "/content/gallery/"
+    clickablePhotos     = true                          # Allow links to the full size images
+    footerText          = "依藤工夢店"
+
+# Metadata
+    description         = "個人サークル 依藤工夢店"            # Max 160 characters show in search results
+    twitterCard         = "summary_large_image"         # Card value “summary”, “summary_large_image”, “app”, or “player”
+    primaryImage        = "/tn.png"                     # Image that shows on Twitter cards and OpenGraph links
+
+[[params.mainMenu]]
+    link = "/blog"
+    text = "writing"
+
+[[params.mainMenu]]
+    link = "/create"
+    text = "create"
+
+[[params.mainMenu]]
+    link = "/about"
+    text = "who is 依藤?"
+    

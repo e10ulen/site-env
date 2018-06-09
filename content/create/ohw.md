@@ -5,17 +5,7 @@ tags = ["blog", "create", "onehourwrite"]
 date = "2018-05-26T22:56:14+09:00"
 title = "ワンライリスト"
 description = "ichiji.socialで行われているワンライのお題リスト。書き終わるとリンクになり、PDFが読めるようになります。"
-
-[author]
-name = "依藤"
-url = "https://e10ulen.github.io/"
-avatar = "/images/avatar.jpg"
-license = "by-sa"
-github = "e10ulen"
-twitter = "e10ulen"
-[scripts]
-mathjax = false
-mermaidjs = false
+showDate = true
 +++
 
 

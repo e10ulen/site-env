@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mastodon on 幽玄怪社 依藤工夢店</title>
+    <link>/tags/mastodon/</link>
+    <description>Recent content in Mastodon on 幽玄怪社 依藤工夢店</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Thu, 31 May 2018 21:14:59 +0900</lastBuildDate>
+    
+	<atom:link href="/tags/mastodon/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>村焼場について</title>
+      <link>/blog/slcb-m-to/</link>
+      <pubDate>Thu, 31 May 2018 21:14:59 +0900</pubDate>
+      
+      <guid>/blog/slcb-m-to/</guid>
+      <description>株式会社ホープムーンが運営するムトー★無料マストドンを利用し、
+立ち上げた村焼場ブチ切れインスタンスですが、残念ながら、維持費支払いをファンブルしまして
+現時点（記事更新時）で既に期限きれ状態でございます。
+登録していただいた皆様には大変申し訳ございませんが、
+当村焼場インスタンスはこのまま自然死させます（多分ですが）
+近日中に何らかの形でいちくら避難所を制作したいとは思っています。
+インスタンス立ち上げるか、どうするか悩んでいますが
+続報は待て！！！！ 自然死はしませんでした
+なので、じわじわと無料範疇で動くなり、独自ドメインで作成し直すなりします。わぁい</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,22 +1,9 @@
 +++
 title = "セナの撮影した写真"
 date = "2018-05-06 23:37:42.757 +0900"
-lastmod = ""
 tags = ["blog","Create", "Photo"]
-
+showDate = true
 description = ""
-image = "/images/avatar.jpg"
-
-[author]
-name = "依藤"
-url = "https://e10ulen.github.io/"
-avatar = "/images/avatar.jpg"
-license = "by-sa"
-github = "e10ulen"
-twitter = "e10ulen"
-[scripts]
-mathjax = false
-mermaidjs = false
 +++
 
 ここに僕が撮った写真を記録として残していこう。  

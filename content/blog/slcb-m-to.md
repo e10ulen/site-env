@@ -1,21 +1,10 @@
 +++
+showDate = true
 title = "村焼場について"
 date = "2018-05-31T21:14:59+09:00"
 description = "今後の村焼場（いちくら避難所）について"
-image = "/images/avatar.jpg"
 tags = [ "blog" , "mastodon"]
 draft = false
-
-[author]
-name = "依藤"
-url = "https://e10ulen.github.io/"
-avatar = "/images/avatar.jpg"
-license = "by-nc-nd"
-github = "e10ulen"
-twitter = "e10ulen"
-[scripts]
-mathjax = false
-mermaidjs = false
 +++
 
 [株式会社ホープムーン](http://www.hopemoon.com/)が運営する[ムトー★無料マストドン](https://free.m.to/)を利用し、  

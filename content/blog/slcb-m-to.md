@@ -3,7 +3,10 @@ showDate = true
 title = "村焼場について"
 date = "2018-05-31T21:14:59+09:00"
 description = "今後の村焼場（いちくら避難所）について"
-tags = [ "blog" , "mastodon"]
+
+thumbnail = "images/missing.png"
+tags = ["mastodon"]
+categories = ["blog"]
 draft = false
 +++
 

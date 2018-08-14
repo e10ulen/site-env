@@ -1,15 +1,41 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mastodon on 幽玄怪社 依藤工夢店</title>
+    <title>Mastodon on 幽玄怪社 依藤幸夢店</title>
     <link>/tags/mastodon/</link>
-    <description>Recent content in Mastodon on 幽玄怪社 依藤工夢店</description>
+    <description>Recent content in Mastodon on 幽玄怪社 依藤幸夢店</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 31 May 2018 21:14:59 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 14 Aug 2018 16:11:17 +0900</lastBuildDate>
     
 	<atom:link href="/tags/mastodon/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>村焼場インスタンスが一時的にアクセスできなかったことについて。</title>
+      <link>/blog/slcb-m-to-accident/</link>
+      <pubDate>Tue, 14 Aug 2018 16:11:17 +0900</pubDate>
+      
+      <guid>/blog/slcb-m-to-accident/</guid>
+      <description>2018年8月10日～13日のムトー全サービス停止の経緯と今後について
+10日午前以下の時間に利用者（僕含め）最終トゥートをした後アクセスが死んだ模様です。
+あきらさんは8:34時が最終トゥート
+崎奈さんは8:53が最終トゥート
+依藤は8:06が最終トゥート
+うらひとさんは8:53が最終トゥート
+藤堂さんは8:26が最終トゥート
+今後当インスタンス運営のスペースを借りている、ホープムーン社発表では、
+ （１）当面の間、新規のインスタンス申込受付は中止します。
+（２）8月下旬より有料インスタンスを新しいサーバー環境へ移転します。
+（３）9月14日(金)に無料インスタンスは停止します。(WebArena利用中止)
+存続をご希望の場合、それまでに有料化をお願いいたします。
+（４）健全性維持の為の体制を構築していきます。
+ こういう事なので当インスタンスも有料化へ移行し存続する方向なんですけども
+村焼場の運営については村焼場内での発言を元に行動し、時には自費を出していたりしますが、
+それでも、一部を利用者の方に負担していただくことになります。
+その点に関しては、大変申し訳ありません。
+今後共村焼場インスタンス、依藤自身、依藤の創作、 プログラムの方を何卒よろしくお願いします。</description>
+    </item>
     
     <item>
       <title>村焼場について</title>

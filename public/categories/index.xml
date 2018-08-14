@@ -1,14 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on 幽玄怪社 依藤工夢店</title>
+    <title>Categories on 幽玄怪社 依藤幸夢店</title>
     <link>/categories/</link>
-    <description>Recent content in Categories on 幽玄怪社 依藤工夢店</description>
+    <description>Recent content in Categories on 幽玄怪社 依藤幸夢店</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
+    <lastBuildDate>Tue, 14 Aug 2018 16:11:17 +0900</lastBuildDate>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Blog</title>
+      <link>/categories/blog/</link>
+      <pubDate>Tue, 14 Aug 2018 16:11:17 +0900</pubDate>
+      
+      <guid>/categories/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Memo</title>
+      <link>/categories/memo/</link>
+      <pubDate>Tue, 14 Aug 2018 22:28:07 +0900</pubDate>
+      
+      <guid>/categories/memo/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

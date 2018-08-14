@@ -1,6 +1,8 @@
 +++
 draft = false
-tags = ["blog", "create","event"]
+thumbnail = ""
+categories = ["blog"]
+tags = ["create","event"]
 date = "2018-05-28T22:08:02+09:00"
 showDate = true
 title = "杜の奇跡27"

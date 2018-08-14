@@ -1,22 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Photo on 幽玄怪社 依藤工夢店</title>
+    <title>Photo on 幽玄怪社 依藤幸夢店</title>
     <link>/tags/photo/</link>
-    <description>Recent content in Photo on 幽玄怪社 依藤工夢店</description>
+    <description>Recent content in Photo on 幽玄怪社 依藤幸夢店</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 06 May 2018 23:37:42 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 09 Aug 2018 01:40:26 +0900</lastBuildDate>
     
 	<atom:link href="/tags/photo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Photo</title>
+      <link>/photo/</link>
+      <pubDate>Thu, 09 Aug 2018 01:40:26 +0900</pubDate>
+      
+      <guid>/photo/</guid>
+      <description> 依藤 セナ    作者 イラスト     e10ulen    18_kareraさん            創音さん     依藤 咲夢 アイドル　Leaf Cherry Blossom 瀬崎 唯    作者 イラスト     e10ulen     瀬崎 晶    作者 イラスト     創音さん     </description>
+    </item>
+    
+    <item>
       <title>セナの撮影した写真</title>
-      <link>/create/photo00/</link>
+      <link>/blog/photo00/</link>
       <pubDate>Sun, 06 May 2018 23:37:42 +0900</pubDate>
       
-      <guid>/create/photo00/</guid>
+      <guid>/blog/photo00/</guid>
       <description>ここに僕が撮った写真を記録として残していこう。
 誰が見るか、正直に言えばわからないけどね。
 でも、誰かの目に止まり、小さな感動を与えれれば、幸いだ。

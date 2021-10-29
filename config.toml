@@ -1,0 +1,36 @@
+baseURL = "https://e10ulen.github.io"
+languageCode = "ja-JP"
+title = "雑記ログ"
+theme = "github-style"
+googleAnalytics = ""
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+  author = "e10ulen"
+  description = "In solitude, where we are least alone."
+  github = "e10ulen"
+#  facebook = ""
+  twitter = "e10ulen"
+#  linkedin = ""
+  instagram = "len.portfolio"
+#  tumblr = ""
+#  email = ""
+  url = "https://e10ulen.github.io"
+  keywords = "blog, google analytics"
+  rss = true
+  lastmod = true
+  userStatusEmoji = "😀"
+  favicon = "/images/github.png"
+  location = "Japan"
+
+# [[params.links]]
+#    title = "Link"
+#   href = "https://github.com/e10ulen"
+#  [[params.links]]
+#    title = "Link2"
+#    href = "https://e10ulen.github.io"
+#    icon = "/images/avatar.png"
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]

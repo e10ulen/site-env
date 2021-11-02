@@ -4,8 +4,7 @@ date: 2021-10-30T03:41:23+09:00
 author: "e10ulen"
 keywords: ["", ""]
 cover: ""
-summary: ""
-pin: false
+
 ---
 [Escape from Tarkov][1]というゲームを今年からずっとやっている。
 

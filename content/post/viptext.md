@@ -2,11 +2,10 @@
 title: "viptext"
 date: 2021-10-28T23:43:24+09:00
 draft: false
-pin: true
 author: "e10ulen"
 keywords: ["golang", "2ch"]
 cover: ""
-summary: ""
+
 ---
 golangで[viptext][1]という物をずっと作り続けてる。
 

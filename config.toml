@@ -1,36 +1,41 @@
 baseURL = "https://e10ulen.github.io"
 languageCode = "ja-JP"
-title = "雑記ログ"
-theme = "github-style"
+title = "scattered pieces of paper"
 googleAnalytics = ""
 pygmentsCodeFences = true
 pygmentsUseClasses = true
 
+theme = "Memorandum"    #Required
+hasCJKLanguage = true
+
+copyright = "&copy; 2021 <a href=\"https://e10ulen.github.io/\" target=\"_blank\">e10ulen</a>"
+disqusShortname = ""
+summarylength = 200
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
 [params]
+  description = "全て雑記、責任なんて何処かに置いてきた。"
+  keywords = []
   author = "e10ulen"
-  description = "In solitude, where we are least alone."
-  github = "e10ulen"
-#  facebook = ""
-  twitter = "e10ulen"
-#  linkedin = ""
-  instagram = "len.portfolio"
-#  tumblr = ""
-#  email = ""
-  url = "https://e10ulen.github.io"
-  keywords = "blog, google analytics"
-  rss = true
-  lastmod = true
-  userStatusEmoji = "😀"
-  favicon = "/images/github.png"
-  location = "Japan"
+  profile = "散らかった紙に埋もれる <a href=\"https://e10ulen.github.io/\" target=\"_blank\">e10ulen</a>"
+  displayauthor = false
+  DateForm = "2006-01-02"
+  sharingicons = true
 
-# [[params.links]]
-#    title = "Link"
-#   href = "https://github.com/e10ulen"
-#  [[params.links]]
-#    title = "Link2"
-#    href = "https://e10ulen.github.io"
-#    icon = "/images/avatar.png"
+[params.highlight]
+theme = "monokai-sublime"
 
-[frontmatter]
-  lastmod = ["lastmod", ":fileModTime", ":default"]
+[[params.social]]
+url = "https://github.com/e10ulen"
+fa_icon_class = "fab fa-github"
+
+[[params.social]]
+url = "https://twitter.com/e10ulen"
+fa_icon_class = "fab fa-twitter"
+
+[[params.social]]
+url = "/index.xml"
+fa_icon_class = "fas fa-rss"

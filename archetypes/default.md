@@ -5,4 +5,7 @@ keywords: ["", ""]
 cover: ""
 summary: ""
 draft: true
+pin: false
 ---
+
+<!--more-->
